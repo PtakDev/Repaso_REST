@@ -10,6 +10,6 @@ public interface IClienteService {
 	public List<Cliente> list_all();
 	public Cliente findCliente(int id);
 	public void modifyCliete(Cliente cliente);
-	public void deleteCliente(int cliente);
+	public void deleteCliente(int id);
 	
 }
