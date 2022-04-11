@@ -12,7 +12,7 @@ services:
     networks:
       test_network:
         aliases:
-          - 'mysql_banco'
+          - mysql_banco
     
   rest_service:
     build:
@@ -24,7 +24,7 @@ services:
     networks:
       test_network:
         aliases:
-          - 'rest_service'
+          - rest_service
     restart:
       on-failure
     
