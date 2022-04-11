@@ -2,7 +2,7 @@ version: '3.4'
 services:
   mysql_banco:
     build:
-      context: ./Repaso_REST
+      context: .
       dockerfile: Dockerfile
       target: mysql_banco
     ports:
@@ -16,7 +16,7 @@ services:
     
   rest_service:
     build:
-      context: ./Repaso_REST
+      context: .
       dockerfile: .
       target: rest_service
     ports:
