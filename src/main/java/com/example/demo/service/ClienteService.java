@@ -22,7 +22,7 @@ public class ClienteService implements IClienteService {
 	}
 
 	@Override
-	public List<Cliente> list_all() {
+	public List<Cliente> listAll() {
 		// TODO Auto-generated method stub
 		return (List<Cliente>)clienteRepository.findAll();
 	}
