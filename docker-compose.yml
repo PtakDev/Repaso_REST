@@ -2,7 +2,7 @@ version: '3.4'
 services:
   mysql_banco:
     build: 
-      dockerfile: Dockerfile
+      dockerfile: .
       target: mysql_banco
     ports:
       - '3306:3306'
@@ -15,7 +15,7 @@ services:
     
   rest_service:
     build:
-      dockerfile: Dockerfile
+      dockerfile: .
       target: rest_service
     ports:
       - '5555:5555'
